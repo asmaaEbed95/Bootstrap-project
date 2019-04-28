@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+	<!-- to make the template compatible with internet wxplorer and edge -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- first mobile meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+	<link rel='stylesheet' href='css/bootstrap.css'/>
+  <link rel='stylesheet' href='css/font-awesome.min.css'/>
+	<link rel='stylesheet' href='css/style.css'/>
+	
+	<script src="js/html5shiv.min.js"></script>
+	<script src="js/respond.min.js"></script>
+  </head>
+  <body>
+    
+    <!-- begin of our navbar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Asmaa <span>Inc.</span></a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Web design</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Web Hosting</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of our navbar -->
+    
+    <!-- start of carousel -->
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+         <ol class="carousel-indicators hidden-xs">
+           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+           <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+         </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/01.jpg" alt="pic1">
+        <div class="carousel-caption">
+          <h1>Web design</h1>
+          <p class="led"> cute things will happen soon isa</p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="images/02.jpeg" alt="pic2">
+        <div class="carousel-caption">
+          <h1>Programming</h1>
+          <p class="led"> cute things will happen soon isa</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="images/03.jpg" alt="pic3">
+        <div class="carousel-caption">
+          <h1>Web services</h1>
+          <p class="led"> cute things will happen soon isa</p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="images/04.jpg" alt="pic4">
+        <div class="carousel-caption">
+          <h1>Web hosting</h1>
+          <p class="led"> cute things will happen soon isa</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+  <!-- End carousel -->
+  
+  <!-- Start section about -->
+  <section class="about text-center">
+    <div class="container">
+       <h1>Meet My New Template <span>Asmaa Inc.</span></h1>
+       <p class="lead">Hello let me introduce our new template Asmaa Inc. Created with all the love with <strong>Bootstrap</strong> 3.2.0</p>
+    </div>
+  </section>
+  <!-- End section about -->
+  
+  <!-- Start section Features -->
+   <section class="features text-center">
+    
+    <!-- Start Container -->
+
+    <div class= "container">
+      
+      <h1>Our Features</h1>
+      
+      <div class="row">
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-ok"></span>
+            <h4> 100% Responsive </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-thumbs-up"></span>
+            <h4> Retina Ready </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-eye-open"></span>
+            <h4> Awesome Display </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-6">
+          <div class="feat">
+            <span class="glyphicon glyphicon-pencil"></span>
+            <h4> Well Documented </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+   </section>
+  <!-- End section Features -->
+  
+  <!-- Start Testimonials section -->
+  <section class= "testimonials text-center">
+    
+    <div class= "container">
+        <h1>What our clients say</h1>
+            
+           <!-- start of  testimonials carousel -->
+           
+          <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+            
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <span>Asmaa Alaa</span>
+              </div>
+              
+              <div class="item">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <span>Alaa Ebed</span>
+              </div>
+            
+              <div class="item">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <span>Ebed Gaballah</span>
+              </div>
+              
+              <div class="item">
+                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p> 
+                    <span>Basem Sabry</span>
+              </div>
+            </div>
+            
+            <!-- Indicators -->
+             <ol class="carousel-indicators">
+                <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                  <img src="images/a1.jpg"/>
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="1">
+                  <img src="images/a3.jpg"/>
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="2">
+                  <img src="images/a2.jpg"/>
+                </li>
+                <li data-target="#carousel-testimonials" data-slide-to="3">
+                  <img src="images/a4.jpg"/>
+                </li>
+             </ol>
+          
+          </div>
+          <!-- End of testimonials carousel -->
+    </div>
+    <!-- End Container -->
+  </section>
+  <!-- End Testimonials section -->
+  
+  <!-- Start Price Table section -->
+  
+  <section class="price-table text-center">
+    <div class="container">
+      
+      <h1>Our Amazing Prices</h1>
+      
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h3 class="text-primary">Hosting</h3>
+            <p class="center-block">$40</p>
+            <ul class="list-unstyled">
+              <li>Space: 10GB</li>
+              <li>Emails: 20</li>
+              <li>Ips: 2</li>
+              <li>Databases: 10</li>
+              <li>Ftp: 5</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+        
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h3 class="text-success">Vps</h3>
+            <p class="center-block">$50</p>
+            <ul class="list-unstyled">
+              <li>Space: 50GB</li>
+              <li>Emails: 30</li>
+              <li>Ips: 2</li>
+              <li>Databases: 20</li>
+              <li>Ftp: 5</li>
+            </ul>
+            <a href="#" class="btn btn-success">Order Now</a>
+          </div>
+        </div>
+      
+       <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h3 class="text-danger">Dedicated</h3>
+            <p class="center-block">$60</p>
+            <ul class="list-unstyled">
+              <li>Space: 40GB</li>
+              <li>Emails: 80</li>
+              <li>Ips: 5</li>
+              <li>Databases: 30</li>
+              <li>Ftp: 15</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h3 class="text-info">Cloud</h3>
+            <p class="center-block">$70</p>
+            <ul class="list-unstyled">
+              <li>Space: 90GB</li>
+              <li>Emails: 50</li>
+              <li>Ips: 11</li>
+              <li>Databases: 50</li>
+              <li>Ftp: 40</li>
+            </ul>
+            <a href="#" class="btn btn-info">Order Now</a>
+          </div>
+       </div>
+      </div>
+    </div>
+      
+    </div>
+  </section>
+  
+  <!-- End Price Table section -->
+  
+  <!-- Start Our Team section -->
+  <section class="our-team text-center">
+    <div class="team">
+      <div class="container">
+      <h1>Meet Our Awesome Team</h1>
+      <div class="row">
+        
+        <div class="col-lg-3 col-sm-6">
+           <div class="person">
+            <img class= "img-circle" src="images/p1.jpg" />
+            <h3>Alaa Ebed</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <i class="fa fa-google-plus-square fa-2x"></i>
+            <i class="fa fa-facebook-square fa-2x"></i>
+            <i class="fa fa-twitter-square fa-2x"></i>
+            <i class="fa fa-youtube-square fa-2x"></i>
+           </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6">
+           <div class="person">
+            <img class= "img-circle" src="images/p2.jpg" />
+            <h3>Ebed Gaballah</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <i class="fa fa-google-plus-square fa-2x"></i>
+            <i class="fa fa-facebook-square fa-2x"></i>
+            <i class="fa fa-twitter-square fa-2x"></i>
+            <i class="fa fa-youtube-square fa-2x"></i>
+           </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6">
+           <div class="person">
+            <img class= "img-circle" src="images/p3.jpg" />
+            <h3>Asmaa Alaa</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <i class="fa fa-google-plus-square fa-2x"></i>
+            <i class="fa fa-facebook-square fa-2x"></i>
+            <i class="fa fa-twitter-square fa-2x"></i>
+            <i class="fa fa-youtube-square fa-2x"></i>
+           </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6">
+           <div class="person">
+            <img class= "img-circle" src="images/p4.jpg" />
+            <h3>Basem Sabry</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <i class="fa fa-google-plus-square fa-2x"></i>
+            <i class="fa fa-facebook-square fa-2x"></i>
+            <i class="fa fa-twitter-square fa-2x"></i>
+            <i class="fa fa-youtube-square fa-2x"></i>
+           </div>
+        </div>
+        
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Team section -->
+  
+  <!-- Start Subscribe section -->
+  <section class="subscribe text-center">
+    <div class="container">
+      <h1>Keep In Touch</h1>
+      <p class="lead">Sign up for Newsletter,</p>
+      <form class="form-inline">
+        <input class="form-control input-lg" type="text" placeholder="Write your Email here">
+        <button class="btn btn-danger btn-lg">
+          <i class="fa fa-edit"></i>
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+  <!-- End Subscribe section -->
+  
+  <!-- Start Statistics section -->
+  <section class="statistics text-center">
+    <div class="data">
+      <div class="container">
+      <h1>Our Main Statistics</h1>
+      
+      <div class="row">
+        
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="stats">
+            <i class="fa fa-users fa-5x"></i>
+            <p>9,550</p>
+            <span>Satisfied Users</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="stats">
+            <i class="fa fa-comments fa-5x"></i>
+            <p>25,600</p>
+            <span>Positive Comments</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="stats">
+            <i class="fa fa-suitcase fa-5x"></i>
+            <p>3,260</p>
+            <span>Projects been done</span>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="stats">
+            <i class="fa fa-support fa-5x"></i>
+            <p>95,234</p>
+            <span>Tickets Archieved</span>
+          </div>
+        </div>
+        
+      </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Statistics section -->
+  
+  <!-- Start our Skills Section -->
+  <section class="our-skills">
+    <div class="container">
+      <h1 class="text-center"> Our Skills </h1>
+      
+      <div class="row">
+        
+        <!-- Start Progress Skills -->
+          
+        <div class="col-md-5">
+            <div class="skill-progress">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                  HTML5
+                </div>
+              </div>
+              
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                  CSS3
+                </div>
+              </div>
+              
+              <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                  Bootstrap
+                </div>
+              </div>
+              
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                  React
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- End Progress Skills -->
+        
+        <!-- Start Team Info -->
+          
+        <div class="col-md-6 col-md-offset-1">
+            <div class="skill-info">
+              <h3>About The Team</h3>
+              <p class="lead">Lorem Ipsum is simply dummy text of the printing. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+              <button type="button" class="btn btn-primary">Talk With A Professional</button>
+            </div>
+        </div>
+        
+        <!-- End Team Info -->
+        
+      </div>
+      
+    </div>
+  </section>
+  <!-- End our Skills Section -->
+  
+  <!-- Start Contact Us Section -->
+  <section class="contact-us text-center">
+    <div class="fields">
+      <div class="container">
+        <div class="row">
+            <i class="fa fa-headphones fa-5x"></i>
+            <h1>Tell Us What You Feel</h1>
+            <p class="lead">Feel Free To Contact Us Anytime</p>
+            
+            <!-- Start Contact Form -->
+            <form role="form">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="User Name">
+                </div>
+                
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Email">
+                </div>
+                
+                <div class="form-group">
+                  <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                </div>
+              </div>
+              
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control input-lg" placeholder="Your Message Goes Here"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg btn-block">Contact Us</button>
+              </div>
+            </form>
+            <!-- End Contact Form -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Us Section -->
+  
+  <!-- Start Clients Section -->
+  <section class="our-clients">
+    <div class="container">
+      <div class="row">
+        <ul class="list-unstyled">
+          <li class="col-md-2 col-xs-4">
+            <img class="img-responsive" src="images/clients/1.png"/>
+          </li>
+          <li class="col-md-2 col-xs-4">
+            <img class="img-responsive" src="images/clients/2.png"/>
+          </li>
+          <li class="col-md-2 col-xs-4">
+            <img class="img-responsive" src="images/clients/3.png"/>
+          </li>
+          <li class="col-md-2 col-xs-4">
+            <img class="img-responsive" src="images/clients/4.png"/>
+          </li>
+          <li class="col-md-2 col-xs-4">
+            <img class="img-responsive" src="images/clients/5.png"/>
+          </li>
+          <li class="col-md-2 col-xs-4">
+            <img class="img-responsive center-block" src="images/clients/6.png"/>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End Clients  Section -->
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+  </body>
+</html>
