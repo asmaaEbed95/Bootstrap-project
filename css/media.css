@@ -1,0 +1,40 @@
+/* start mobile and tablets screen */
+
+@media (max-width: 767px){
+    .navbar-inverse .navbar-nav > li > a {
+       padding-top: 10px;
+       padding-bottom: 10px;
+    }
+    
+    .subscribe .form-control {
+      margin:20px auto;
+      width: 400px
+    }
+    
+}
+
+/* end mobile and tablets screen */
+
+/* start small screen */
+
+@media (min-width: 768px) and (max-width: 991px){
+    
+}
+
+/* end small screen */
+
+/* start medium screen */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+}
+
+/* end medium screen */
+
+/* start large screen */
+
+@media (min-width: 1200px){
+    
+}
+
+/* end large screen */

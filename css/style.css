@@ -447,3 +447,107 @@ h1 {
 }
 
 /* End Our Clients Section */
+
+/* Start Footer Section */
+
+.footer {
+    background: #111;
+    color : #AAA;
+    padding-top: 30px;
+}
+
+.footer a {
+    color: #AAA;
+}
+
+.footer a:hover {
+    color: #FFF;
+}
+
+.footer h3 {
+    color: #0895D1;
+    letter-spacing: 1px;
+    margin: 20px auto 20px;
+}
+
+.footer .three-columns {
+    overflow: hidden;
+}
+
+.footer .three-columns li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer .social-list {
+    overflow: hidden;
+    margin: 20px 0 10px
+}
+
+.footer .social-list li {
+    float: left;
+    margin-right: 3px;
+    opacity: 0.5;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out
+}
+
+.footer .social-list li:hover {
+    opacity: 1;
+}
+
+.footer .img-thumbnail {
+    border: 1px solid #444;
+    background: rgba(0,0,0,0.3);
+    margin-bottom: 5px;
+}
+
+.footer .copyright {
+    background: #333;
+    color: #AAA;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footer .copyright span {
+    color: #0895D1;
+}
+
+/* End Footer Section */
+
+/* Start Section Tool Box */
+
+.option-box {
+    position: fixed;
+    top:100px;
+    left: 0;
+}
+
+.option-box .color-option {
+    float: left;
+    background: #333;
+    color: #FFF;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #E41B17;
+    display: none
+}
+
+.option-box .color-option ul li {
+    width: 20px;
+    height: 20px;
+    background: #F00;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.option-box .gear-cheack {
+    padding: 5px;
+    background: #E41B17;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* End Section Tool Box */
