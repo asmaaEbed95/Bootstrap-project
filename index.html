@@ -12,7 +12,9 @@
 	<link rel='stylesheet' href='css/style.css'/>
   <link rel='stylesheet' href='css/media.css'/>
   <link rel='stylesheet' href='css/default-theme.css'/>
-	
+	<link href="css/hover.css" rel="stylesheet" media="all">
+  <link rel='stylesheet' href='css/animate.css'/>
+  
 	<script src="js/html5shiv.min.js"></script>
 	<script src="js/respond.min.js"></script>
   </head>
@@ -35,9 +37,9 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" >
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Company</a></li>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">FAQ</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -112,7 +114,7 @@
   <!-- End carousel -->
   
   <!-- Start section about -->
-  <section class="about text-center">
+  <section class="about text-center wow bounceIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="300">
     <div class="container">
        <h1>Meet My New Template <span>Asmaa Inc.</span></h1>
        <p class="lead">Hello let me introduce our new template Asmaa Inc. Created with all the love with <strong>Bootstrap</strong> 3.2.0</p>
@@ -132,7 +134,7 @@
       <div class="row">
         
         <div class="col-lg-3 col-md-6">
-          <div class="feat">
+          <div class="feat hvr-grow-rotate wow bounceInLeft " data-wow-duration="2s" data-wow-offset="300">
             <span class="glyphicon glyphicon-ok"></span>
             <h4> 100% Responsive </h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -140,7 +142,7 @@
         </div>
         
         <div class="col-lg-3 col-md-6">
-          <div class="feat">
+          <div class="feat hvr-grow-rotate wow bounceInUp" data-wow-duration="2s" data-wow-offset="300">
             <span class="glyphicon glyphicon-thumbs-up"></span>
             <h4> Retina Ready </h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -148,7 +150,7 @@
         </div>
         
         <div class="col-lg-3 col-md-6">
-          <div class="feat">
+          <div class="feat hvr-grow-rotate wow bounceInDown" data-wow-duration="2s" data-wow-offset="300">
             <span class="glyphicon glyphicon-eye-open"></span>
             <h4> Awesome Display </h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -156,7 +158,7 @@
         </div>
         
         <div class="col-lg-3 col-md-6">
-          <div class="feat">
+          <div class="feat hvr-grow-rotate wow bounceInRight" data-wow-duration="2s" data-wow-offset="300">
             <span class="glyphicon glyphicon-pencil"></span>
             <h4> Well Documented </h4>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -171,7 +173,7 @@
   <!-- End section Features -->
   
   <!-- Start Testimonials section -->
-  <section class= "testimonials text-center">
+  <section class= "testimonials text-center wow flipInY" data-wow-duration="1s" data-wow-offset="400">
     
     <div class= "container">
         <h1>What our clients say</h1>
@@ -234,7 +236,7 @@
       <h1>Our Amazing Prices</h1>
       
       <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
           <div class="price-box">
             <h3 class="text-primary">Hosting</h3>
             <p class="center-block">$40</p>
@@ -249,7 +251,7 @@
           </div>
         </div>
         
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
           <div class="price-box">
             <h3 class="text-success">Vps</h3>
             <p class="center-block">$50</p>
@@ -264,7 +266,7 @@
           </div>
         </div>
       
-       <div class="col-md-3 col-sm-6 col-xs-12">
+       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="400">
           <div class="price-box">
             <h3 class="text-danger">Dedicated</h3>
             <p class="center-block">$60</p>
@@ -279,7 +281,7 @@
           </div>
         </div>
 
-      <div class="col-md-3 col-sm-6 col-xs-12">
+      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="2s" data-wow-offset="400">
           <div class="price-box">
             <h3 class="text-info">Cloud</h3>
             <p class="center-block">$70</p>
@@ -309,7 +311,7 @@
       <div class="row">
         
         <div class="col-lg-3 col-sm-6">
-           <div class="person">
+           <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
             <img class= "img-circle" src="images/p1.jpg" />
             <h3>Alaa Ebed</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -321,7 +323,7 @@
         </div>
         
         <div class="col-lg-3 col-sm-6">
-           <div class="person">
+           <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
             <img class= "img-circle" src="images/p2.jpg" />
             <h3>Ebed Gaballah</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -333,7 +335,7 @@
         </div>
         
         <div class="col-lg-3 col-sm-6">
-           <div class="person">
+           <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
             <img class= "img-circle" src="images/p3.jpg" />
             <h3>Asmaa Alaa</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -345,7 +347,7 @@
         </div>
         
         <div class="col-lg-3 col-sm-6">
-           <div class="person">
+           <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="400">
             <img class= "img-circle" src="images/p4.jpg" />
             <h3>Basem Sabry</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
@@ -364,7 +366,7 @@
   
   <!-- Start Subscribe section -->
   <section class="subscribe text-center">
-    <div class="container">
+    <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
       <h1>Keep In Touch</h1>
       <p class="lead">Sign up for Newsletter,</p>
       <form class="form-inline">
@@ -493,7 +495,7 @@
             
             <!-- Start Contact Form -->
             <form role="form">
-              <div class="col-md-6">
+              <div class="col-md-6 wow bounceInLeft" data-wow-duration="1s" data-wow-offset="300">
                 <div class="form-group">
                   <input type="text" class="form-control input-lg" placeholder="User Name">
                 </div>
@@ -507,7 +509,7 @@
                 </div>
               </div>
               
-              <div class="col-md-6">
+              <div class="col-md-6 wow bounceInRight" data-wow-duration="1s" data-wow-offset="300">
                 <div class="form-group">
                   <textarea class="form-control input-lg" placeholder="Your Message Goes Here"></textarea>
                 </div>
@@ -527,22 +529,22 @@
       <div class="row">
         <ul class="list-unstyled">
           <li class="col-md-2 col-xs-4">
-            <img class="img-responsive" src="images/clients/1.png"/>
+            <img class="img-responsive wow bounceIn" data-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="0.5s" src="images/clients/1.png"/>
           </li>
           <li class="col-md-2 col-xs-4">
-            <img class="img-responsive" src="images/clients/2.png"/>
+            <img class="img-responsive wow bounceIn" data-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="1s" src="images/clients/2.png"/>
           </li>
           <li class="col-md-2 col-xs-4">
-            <img class="img-responsive" src="images/clients/3.png"/>
+            <img class="img-responsive wow bounceIn" data-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="1.5s" src="images/clients/3.png"/>
           </li>
           <li class="col-md-2 col-xs-4">
-            <img class="img-responsive" src="images/clients/4.png"/>
+            <img class="img-responsive wow bounceIn" data-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="2s" src="images/clients/4.png"/>
           </li>
           <li class="col-md-2 col-xs-4">
-            <img class="img-responsive" src="images/clients/5.png"/>
+            <img class="img-responsive wow bounceIn" data-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="2.5s" src="images/clients/5.png"/>
           </li>
           <li class="col-md-2 col-xs-4">
-            <img class="img-responsive center-block" src="images/clients/6.png"/>
+            <img class="img-responsive center-block wow bounceIn" data-wow-duration="0.5s" data-wow-offset="200" data-wow-delay="3s" src="images/clients/6.png"/>
           </li>
         </ul>
       </div>
@@ -665,7 +667,7 @@
       </div>
   </section>
   
-  <!-- Start Section Loading -->
+  <!-- End Section Loading -->
   
   <!-- Start Scroll to Top -->
   
@@ -678,5 +680,10 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+              new WOW().init();
+    </script>
+    <script src="js/jquery.nicescroll.min.js"></script>
   </body>
 </html>

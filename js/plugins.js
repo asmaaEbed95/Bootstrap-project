@@ -1,12 +1,17 @@
-$(document).ready(function(){
+$(document).ready(function (){
+    
+    //nice scroll
+    
+    $("html").niceScroll();
+    
     $('.carousel').carousel({
         interval: 3000
     });
     
     //Show color option div when click on gear
-    $(".gear-cheack").click(function()
+    $(".gear-cheack").click(function ()
       {
-        $(".color-option").fadeToggle();
+        $(".color-option").fadeToggle ();
       });
     
     //Change Theme Color On Click
@@ -55,9 +60,11 @@ $(window).load(function() {
     
     $(".loading-overlay .spinner").fadeOut(2000,
        function(){
+        
+        $("body").css("overflow","auto");
+        
            $(this).parent().fadeOut(2000,
                 function(){
-                    $("body").css("overflow","auto");
                     $(this).remove();
                 });
         });
